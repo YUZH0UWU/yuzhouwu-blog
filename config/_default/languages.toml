@@ -1,0 +1,13 @@
+[zh]
+    languageCode      = "zh-cn"
+    languageName      = "中文"
+    languagedirection = "ltr"
+    title             = "渔舟屋"
+    weight            = 1
+
+[en]
+    languageCode      = "en-us"
+    languageName      = "English"
+    languagedirection = "ltr"
+    title             = "Yu Zhou Wu"
+    weight            = 2
