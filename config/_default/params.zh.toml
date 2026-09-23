@@ -8,7 +8,7 @@ favicon        = "img/favicon.jpg"
 SortBy              = "default"
 
 [footer]
-    customText = "这里可以自定义footer内容"
+    customText = "渔舟一叶，屋藏万象"
 
 [dateFormat]
     # 使用当地日期格式
@@ -16,8 +16,8 @@ SortBy              = "default"
     lastUpdated = ":date_medium"
 
 [sidebar]
-    emoji    = "🚀"
-    subtitle = "这是一个基于 Hugo Theme Stack v4 的修改版本"
+    emoji    = "🛶"
+    subtitle = "渔舟屋 · 记录技术与生活的点滴"
     avatar   = "img/avatar.jpg"
 
 [article]
