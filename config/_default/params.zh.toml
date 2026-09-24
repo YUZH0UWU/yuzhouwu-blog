@@ -16,8 +16,8 @@ SortBy              = "default"
     lastUpdated = ":date_medium"
 
 [sidebar]
-    emoji    = "🛶"
-    subtitle = "渔舟屋 · 记录技术与生活的点滴"
+    emoji    = "🎵"
+    subtitle = "科技与艺术的探索者"
     avatar   = "img/avatar.jpg"
 
 [article]
