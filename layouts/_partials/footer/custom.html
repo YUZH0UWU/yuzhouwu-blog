@@ -66,17 +66,4 @@
   })();
 </script>
 
-<!-- Waline pageview batch fetch (for home/list/comment-disabled pages) -->
-{{ if and .Site.Params.comments.waline.serverURL (or .IsHome .IsNode (eq .Params.comments false)) }}
-<script src="//unpkg.com/@waline/client@v2/dist/pageview.js"></script>
-<script>
-    window.addEventListener('DOMContentLoaded', function() {
-        setTimeout(() => {
-            Waline.pageviewCount({
-                serverURL: '{{ .Site.Params.comments.waline.serverURL }}',
-                update: false
-            });
-        }, 100);
-    });
-</script>
-{{ end }}
+

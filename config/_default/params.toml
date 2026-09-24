@@ -23,15 +23,19 @@
 
 [comments]
     enabled  = true
-    provider = "waline"
-    
-[comments.waline]
-    # IMPORTANT: Replace this with your own Waline server URL!
-    serverURL    = "https://waline-demo.yuzhouwu.com/"
-    pageview     = true
-    emoji        = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
-    requiredMeta = ["name"]
+    provider = "giscus"
 
-    [comments.waline.locale]
-        admin       = "渔舟屋"
-        placeholder = ""
+[comments.giscus]
+    repo              = "YUZH0UWU/yuzhouwu-blog"
+    repoID            = "R_kgDOUm-S4Q"
+    category          = "Announcements"
+    categoryID        = "DIC_kwDOUm-S4c4DGRXH"
+    mapping           = "pathname"
+    strict            = "0"
+    reactionsEnabled  = "1"
+    emitMetadata      = "0"
+    inputPosition     = "bottom"
+    lightTheme        = "light"
+    darkTheme         = "dark_dimmed"
+    lang              = "zh-CN"
+    loading           = "lazy"
