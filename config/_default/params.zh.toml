@@ -8,7 +8,7 @@ favicon        = "img/favicon.jpg"
 SortBy              = "default"
 
 [footer]
-    customText = "渔舟一叶，屋藏万象"
+    customText = "使用 Hugo 构建 | 主题 Stack 由 渔舟屋设计"
 
 [dateFormat]
     # 使用当地日期格式
